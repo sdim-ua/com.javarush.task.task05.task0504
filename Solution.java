@@ -6,23 +6,11 @@
 public class Solution {
     public static void main(String[] args) {
         //напишите тут ваш код
-        Cat cat1 = new Cat();
-        cat1.name = "1111";
-        cat1.age = 11;
-        cat1.weight = 111;
-        cat1.strength = 1111;
+        Cat cat1 = new Cat("1111",1 ,1 , 1 );
         
-        Cat cat2 = new Cat();
-        cat2.name = "2222"
-        cat2.age = 22;
-        cat2.weight = 222;
-        cat2.strength = 2222;
+        Cat cat2 = new Cat("2222", 2, 2, 2);
         
-        Cat cat3 = new Cat();
-        cat3.name = "3333";
-        cat3.age = 22;
-        cat3.weight = 333;
-        cat3.strength = 3333;
+        Cat cat3 = new Cat("3333", 3, 3, 3);
     }
 
     public static class Cat {
